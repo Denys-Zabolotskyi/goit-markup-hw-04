@@ -287,18 +287,19 @@ img {
 .our-team {
   background-color: #f5f4fa;
 }
+
 .team-list {
   display: flex;
   padding-bottom: 94px;
 }
+
 .team-item {
   width: 270px;
-  height: 368px;
   background: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  /* padding-bottom: 94px; */
+  padding-bottom: 30px;
 }
 
 .team-item:not(:last-child) {
@@ -315,6 +316,7 @@ img {
   padding-top: 30px;
   padding-bottom: 10px;
 }
+
 .team-subtitle {
   font-weight: 400;
   font-size: 16px;
@@ -322,7 +324,39 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 30px;
 }
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 32px;
+  /* padding: 0 32px; */
+  /*margin or padding?????????*/
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-list-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-list-link:hover {
+  background-color: var(--accent-color);
+}
+.social-list-link:hover .social-list-svg {
+  fill: #ffffff;
+}
+
 /* ================== Our team end ================ */
 
 /* ================== Footer ================ */

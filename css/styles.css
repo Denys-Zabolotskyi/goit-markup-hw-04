@@ -48,7 +48,7 @@ img {
 /*==================== Header ==============*/
 .header {
   padding: 32px 0;
-  /* border: 1px solid #ececec; */
+  border: 1px solid #ececec;
 }
 
 .header .conteiner {
@@ -403,9 +403,54 @@ img {
 }
 .footer .address {
   padding-bottom: 50px;
+  margin-right: 70px;
 }
 .footer .address-item {
   padding-bottom: 9px;
+}
+
+.footer-conteiner {
+  display: flex;
+  align-items: baseline;
+}
+
+.address-link-map {
+  color: #ffffff;
+}
+
+.address-link-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-link-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.social-links-list {
+  display: flex;
+  align-items: baseline;
+  margin-top: 20px;
+}
+.footer-social-links .social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-links .social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-links .social-list-svg {
+  fill: #ffffff;
+}
+.footer-social-links .social-list-link:hover {
+  background-color: var(--accent-color);
+}
+.social-links-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 /* ================== Footer end ================ */
 
@@ -487,4 +532,12 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   padding: 0px 24px 20px;
+}
+
+.portfolio-list-item :hover :focus,
+.portfolio-list-item:hover,
+:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }

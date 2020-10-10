@@ -465,6 +465,7 @@ img {
 .selection-button .button-link:hover {
   background-color: var(--accent-color);
   color: #ffffff;
+  cursor: pointer;
 }
 
 .selection-button .button-link:focus {
